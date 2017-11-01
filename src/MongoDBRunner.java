@@ -18,13 +18,13 @@ import com.mongodb.client.MongoCollection;
 
 /**
  * 操作mongodb的主类
- * @author hadoop
+ * @author jason
  *
  */
 public class MongoDBRunner {
 	/**
 	 * mongodb转换到hadoop的一个bean对象
-	 * @author hadoop
+	 * @author jason
 	 *
 	 */
 	 static class PersonMongoDBWritable implements MongoDBWritable{
